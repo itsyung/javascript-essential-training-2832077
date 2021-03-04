@@ -5,7 +5,7 @@
 
 // String:
 let stringDemo = "A string of text.";
-console.log("String:", stringDemo);
+console.log("String:", stringDemo, typeof stringDemo);
 
 // Numbes:
 let integerDemo = 4;
@@ -20,11 +20,11 @@ console.log("Boolean value:", booleanDemo);
 
 // Null value (nothing):
 let nullDemo = null;
-console.log("Null value:", nullDemo);
+console.log("Null value:", nullDemo, typeof nullDemo);
 
 // Undefined:
 let undefinedDemo;
-console.log("Undefined:", undefinedDemo);
+console.log("Undefined:", undefinedDemo, typeof undefinedDemo);
 
 let undefinedAssignedDemo = undefined;
 console.log("Undefined assigned:", undefinedAssignedDemo);
